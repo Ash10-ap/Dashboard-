@@ -49,7 +49,7 @@ function Search() {
               updateBestMatches();
             }
           }}
-          className={`w-full px-4 py-2 focus:outline-none rounded-md
+          className={`w-full px-4 py-2 focus:outline-none rounded-md sm:w-[25vw]
             ${darkMode ? "bg-gray-900" : null}
           `}
         />
